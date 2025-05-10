@@ -1,0 +1,374 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+
+p{
+	font-weight: 300;
+	color: black;
+}
+
+header{
+	position:fixed;
+	top: 0%;
+	left:0% ;
+	padding:20px 10px ;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content:space-evenly ;
+	align-items: center;
+	transition:0.5s;
+}
+.logo{
+	*color: white;
+	font-weight: bold;
+	font-size: 2em;
+    text-decoration: none;
+	margin-top: -10px;
+}
+
+.logo span{
+    color: chocolate;
+}
+.menu{
+	display: flex;
+	position: relative;
+}
+.menu li {
+	list-style: none ;
+}
+.menu a {
+	color: black;
+	text-decoration: none;
+	margin-left: 30px;
+	font-weight: 700;
+}
+.btn-reservation{
+	padding: 10px 20px;
+	background: chocolate;
+	margin-top: -10px;
+	text-transform: uppercase;
+} 
+.btn-reservation hover{
+	background: white ;
+	transition: ease-out;   
+}
+
+header .menu li a:hover{
+	color: #fb911f;
+	border-bottom: 2px solid #fb911f;
+
+}
+.barniere{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("../images/trans.jpg");   
+	background-size: cover;
+	/*box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);*/
+	
+
+}
+.barniere .contenu{
+	max-width: 70%;
+    text-align: center;
+}
+.barniere .contenu h1{
+	color: chocolate;
+	font-size: 3m;
+	text-transform: capitalize ;
+}
+.contenu p {
+	color: white;
+	font-size: 1.2em;
+}
+.btn-menu{
+	padding: 10px 20px;
+	color: black;
+	background: chocolate;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition:0.5s;
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 10px;
+	border-radius: 50px;
+}
+.btn-commande{
+	padding: 10px 20px;
+	color: black;
+	background: blueviolet;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition:0.5s;
+	display: inline-block;
+	text-decoration: none;
+    margin-left: 10px;
+	border-radius:50px ;
+}
+/*.btn-menu: hover{
+	letter-spacing: 4px;               
+}
+.btn-commande: hover{
+   letter-spacing: 4px;
+}*/
+
+section{
+	padding: 100px;
+}	
+.row{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.row .OHO{
+	position: relative;
+	width: 48%;
+	justify-content: center;
+	align-items: center;
+
+}
+.row .OHO h2{
+    margin-bottom: 20px ;
+} 
+.titre{
+	color: darkblue;
+	font-size: 2em;
+	font-weight: 300px;
+	text-transform: capitalize;
+}
+.titre span{
+	color: #fb911f;
+}
+.image{
+	height: 450px;
+	width: 600px;
+	position: relative;
+}
+.title{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    margin-top: -80px;
+}
+.Menu{
+    margin-top:-200px ;
+}
+.Menu .contenu{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.Menu .contenu .box{
+	width: 350px;
+	margin: 20px;
+	border: 20px solid white;
+	box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+
+}
+.Menu .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.Menu .contenu .box h3{
+	color : black;
+	font-weight: 400;
+}
+.Menu .contenu .box .imbox img{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+.btn-voirplus{
+	padding: 10px 20px;
+	color: black;
+	background: chocolate;
+	margin-top: 20px;
+	text-transform: uppercase;
+	transition:0.5s;
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.Menu .contenu .box .text{
+	text-align: center;
+	font-weight: 300px;
+}
+.appr{
+    margin-top: -100px;
+}
+
+.Menuu{
+    margin-top: -350px;
+}
+.Expert{
+    margin-top: 100px;
+}
+.expert{
+    margin-top:-200px ;
+}
+.expert .containt{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	
+}
+.expert .containt .b{
+	width: 250px;
+	margin: 20px;
+}
+
+.expert .containt .b img{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+.expert .containt .b .texts{
+	text-align: center;
+	font-weight: 300px;
+}
+.expert .containt .b h3{
+	color: black;
+	font-weight: 400;
+	font-style: italic;
+
+}
+.Temoins{
+    margin-top:-200px ;
+}
+
+.Temoins .containts{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	
+}
+.Temoins .containts .boox{
+	width: 250px;
+	margin: 20px;
+	background: chocolate;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 15px;
+	padding: 40px;
+}
+
+.Temoins .containts .boox img{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+.Temoins .containts .boox .Texts{
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
+}
+.Temoins .containts .boox h3{
+	color: black;
+	font-weight: 400;
+
+}
+.Temoins{
+	background-image: url("../images/pays.jpg");
+	background-size: cover;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+}
+.Temoins .containts .boox .iboox{
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.Temoins .containts .boox .iboox img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	justify-content: center;
+	align-items: center;
+}
+.CONTACT{
+	background-image: url("../images/fd.jpg");
+	background-size: cover;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+	width: 100%;
+	background-position: unset;
+}
+.contact{
+	text-align: center;
+}
+.CONTACT .contact p {
+	color: white;
+}
+
+.contactF{
+	padding: 75px 50px;
+	background: chocolate;
+	box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+	max-width: 500px;
+	margin-top: 50px;
+	align-items: center;
+	margin-left: 27%;
+}
+.contactF h3{
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+.contactF.input{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.contactF.input input:focus,
+.contactF.input textarea:focus{
+	width: 100%;
+	border: 1px solid chocolate;
+	padding: 10px;
+	color: chocolate;
+	outline: none;
+	font-size: 16px;
+	font-weight: 400;
+	resize: none;
+}
+.titre-ctc span{
+	color: chocolate;
+}
+.contactF.input input[type="submit"]{
+	font-size: 1em;
+	font-weight: 700;
+}
+header.sticky{
+	background: white;
+	padding: 10px;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
+}
